@@ -1,0 +1,107 @@
+/*
+    Name: Adam Gaudreau, adam_gaudreau@student.uml.edu
+    Computer Science Department, UMass Lowell
+    Comp.4610, GUI Programming I
+    File: /usr/cs/2018/agaudrea/public_html/461f2017/hw6/css/index.css
+    Created: 15 November 2017
+    Last updated by AG: 15 November 2017
+*/
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #E0E0E0;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.header {
+    text-align: left;
+    color: #ffffff;
+    background-color: #673AB7;
+    min-height: 75px;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.header-font {
+    font-family: 'Lobster', cursive;
+}
+
+.slider {
+    margin: 20px 0 0 0;
+}
+
+.btn-custom {
+    background-color: #673AB7;
+    border-color: #512DA8;
+}
+.btn-custom:hover {
+    background-color: #4527A0;
+    border-color: #311B92;
+}
+.btn-custom:disabled {
+    background-color: #9575CD;
+    border-color: #7E57C2;
+}
+
+.ui-state-active {
+    background: #7E57C2 !important;
+    border-color: #512DA8 !important;
+}
+
+.section-title {
+    color: #512DA8;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.vehicle-card {
+    background-color: #ffffff;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.error {
+    color: #EF5350;
+}
+
+#table-params {
+    background-color: #B39DDB;
+}
+
+.table-root {
+    background-color: #D1C4E9;
+}
+
+.ui-icon-close {
+    cursor: pointer;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.ui-tabs-nav, .ui-remove-multiple { visibility: visible; }
+.ui-tabs-nav { margin-right: 170px !important; }
+.ui-tabs .ui-tabs-nav li { float: left !important;}
+#tabs { position: relative; }
+.ui-remove-multiple { position: absolute; right: 7px; top: 7px; }
